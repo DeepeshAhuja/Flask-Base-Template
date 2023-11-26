@@ -60,5 +60,12 @@ Inside the html file write this code
 <link rel="stylesheet" href="../static/css/filename.css">
 ```
 ## You can add JS files inside static folder
+### If you want to link js file inside html:
+```
+Inside the html file write this code
+<script src="{{url_for('static',filename='js/filename.js')}}"></script>
+(or)
+<script src="../static/js/filename.js"></script>
+```
 ## You can add images inside static folder
 ## You can add other files inside static folder
